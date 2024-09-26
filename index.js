@@ -3,12 +3,17 @@
 
 // TASK 1: Arrays - Create, Read, Update, Delete (CRUD)
 // A. Create an array called `fruits` that contains: "apple", "banana", "cherry".
+let fruits= ["apple", "banana","cherry"]
 // B. Read (log) the second fruit in the array.
+console.log(fruits[1])
 // C. Update the third fruit to "orange".
+fruits.splice(2, "orange")
 // D. Add a new fruit, "grape", to the end of the array.
+fruits.push("grape")
 // E. Delete the last fruit in the array.
+fruits.pop()
 // F. Log the updated array.
-
+console.log(fruits)
 
 
 // TASK 2: Objects - Create, Read, Update, Delete (CRUD)
