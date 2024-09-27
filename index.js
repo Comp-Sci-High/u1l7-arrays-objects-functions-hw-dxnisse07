@@ -18,12 +18,21 @@ console.log(fruits)
 
 // TASK 2: Objects - Create, Read, Update, Delete (CRUD)
 // A. Create an object called `student` with the keys: name, age, and grade. (add your own values)
+let student={
+   name:"Denisse", 
+   age:16,
+   grade:"B"
+}
 // B. Read (log) the student's age.
+console.log(student.age)
 // C. Update the student's grade to "A+".
+student.grade=("A+")
 // D. Add a new property `isGraduated` and set it to `true`.
+student.isGraduated=("yes")
 // E. Delete the `age` property from the object.
+delete student.age
 // F. Log the updated student object.
-
+console.log(student)
 
 
 // TASK 3: Functions - Create and Call Functions
